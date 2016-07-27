@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title>ThyNameIsMud.com</title>
+		
+		<link rel="stylesheet" type="text/css" src="http://thynameismud.com/static/semantic/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/reset.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/site.min.css">
+	
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/container.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/grid.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/header.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/image.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/menu.min.css">
+	
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/divider.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/dropdown.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/segment.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/button.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/list.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/icon.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/sidebar.min.css">
+		<link rel="stylesheet" type="text/css" href="http://thynameismud.com/static/semantic/components/transition.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://thynameismud.com/static/semantic/semantic.min.js"></script>
+
+</head>
+<body>
+		<!-- Following Menu -->
+		<div class="ui large top fixed hidden menu">
+			<div class="ui container">
+				<a href="http://thynameismud.com/" class="item">ThyNameIsMud.com</a>
+				<a href="https://github.com/ThyNameIsMud/armortest" target="_BLANK" class="item">Code</a>
+			</div>		
+		</div>
+
+		<div style="height: 3.5em;"></div>
+
+	<!-- Page Contents -->
+		<div class="container">
+			<div class="center content">
+				Loading Players...
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			function theGame () {
+				var that = this;
+				
+				that.players = {};
+				that.loadPlayers();
+			}
+
+			theGame.prototype.loadPlayers = function () {
+				var that = this;
+
+				jQuery.getJSON("model/users.json")
+					.done(function(data) {
+						console.dir(data);
+						that.players = data;
+						that.introducePlayers();
+					})
+					.fail(function() {
+						jQuery('.content').html("<div class='error'>Failed to load users</div>");
+					});
+			};
+
+			theGame.prototype.introducePlayers = function () {
+				var that = this;
+
+				jQuery('.content').html("<h1 class='ui center aligned header' style='display:none'>Introducing...</h1><div style='display:none' class='ui text container users'><h3 class='ui username'></h3><h4 class='ui userinfo'></h4></div><input id='usernum' type='hidden' value=0>");
+
+				jQuery('.content h1')
+						.fadeIn();
+
+				jQuery('.content .users .username').html(that.players[0].name);
+				jQuery('.content .users .userinfo').html(that.players[0].notes);
+				jQuery('.content .users').fadeIn().delay(1800).fadeOut();
+
+				function showNextPlayer() {
+					var player = jQuery('#usernum').val();
+					
+					player++;
+
+					jQuery('#usernum').val(player);
+					jQuery('.content .users .username').html(that.players[player].name);
+					jQuery('.content .users .userinfo').html(that.players[player].notes);
+					jQuery('.content .users').fadeIn().delay(1800).fadeOut();
+
+					if(player < (that.players.length-1)) {
+						setTimeout(showNextPlayer,2600);	
+					} else {
+						//jQuery('.content').fadeOut();
+						that.startTourt();
+					}
+				}
+
+				setTimeout(showNextPlayer,2600);
+			};
+
+			theGame.prototype.startTourt = function () {
+				var that = this,
+					onGoingTour = true;
+
+				jQuery('.content').html("<h1 class='ui center aligned header'>Round 1</h1><div class='ui text container game'><div class='ui segments'></div></div>");
+				jQuery('.content').fadeIn();
+
+				var firstServe = Math.floor(Math.random() * that.players.length),
+				against = ((firstServe + 1) < that.players.length) ? firstServe + 1 : 0;
+
+				that.players[firstServe].matched = [];
+				that.players[against].matched = [];
+				that.players[firstServe].matched.push(against);
+				that.players[against].matched.push(firstServe);
+
+
+				while(onGoingTour) {
+					that.addSegment(that.players[firstServe].name +" VS " + that.players[against].name);
+					that.match(firstServe, against);
+
+					// Determine if tour is over
+					if(that.players[0].matchWins > 2) {
+						onGoingTour = false;
+					} else if(that.players[1].matchWins > 2) {
+						onGoingTour = false;
+					} else if(that.players[2].matchWins > 2) {
+						onGoingTour = false;
+					} else {
+						// Lets see whose playing next
+						against = ((against + 1) < that.players.length) ? against + 1 : 0;
+
+						// if we have played this person lets switch the firstServe
+						if(that.players[firstServe].matched.indexOf(against) !== false) {
+							firstServe = ((firstServe + 1) < (that.players.length - 1)) ? firstServe + 1 : 0;
+						}
+					}
+				}
+			};
+
+			theGame.prototype.match = function (player, against) {
+				var that = this,
+				player1 = that.players[player],
+				player2 = that.players[against],
+				winner = true;
+
+				player1.score = 0;
+				player2.score = 0;
+				that.whoServes = 0;
+
+
+				while(winner) {
+					if(that.whoServes === 0) {
+						if(that.serveBall(player1)) {
+							// Ball was served, report and lets ping pong
+							that.addSegment(player1.name +" served to " + player2.name + "... InBounds");
+
+							that.pingPong(player1, player2);
+
+						} else {
+							// Player 1 missed the shot, player 2 scores
+							that.addSegment(player1.name +" served to " + player2.name + "... Out of Bounds");
+							player2.score++;
+							that.reportMatchScore(player1, player2);
+						}
+					} else {
+						if(that.serveBall(player2)) {
+							// Ball was served, report and lets ping pong
+							that.addSegment(player2.name +" served to " + player1.name + "... InBounds");
+
+							that.pingPong(player2, player1);
+
+						} else {
+							// Player 1 missed the shot, player 2 scores
+							that.addSegment(player2.name +" served to " + player1.name + "... Out of Bounds");
+							player2.score++;
+							that.reportMatchScore(player1, player2);
+						}
+					}
+
+					// Score of greater than 10 and more at least 2 points of seperation will end the match
+					if(player1.score >= 11 && ((player1.score - player2.score) > 1)) {
+						winner = false;
+						that.players[player].matchWins++;
+					} else if(player2.score >= 11 && ((player2.score - player1.score) > 1)) {
+						winner = false;
+						player2.matchWins++;
+						that.players[against].matchWin++;
+					} else {
+						// keep on rollin'
+					}
+				}
+
+				that.showTourScores();
+				
+			};
+
+			theGame.prototype.pingPong = function (player1, player2) {
+				var that = this,
+					pingpong = true,
+					toggle = 0;
+
+				while(pingpong) {
+					// Player 2 returns 
+					if(toggle === 0) {
+						if(that.returnBall(player2)) {
+							// Player2 returned ball, keep going
+							that.addSegment(player2.name +" returns to " + player1.name + "... InBounds");
+						} else {
+							// Player2 failed, break the loop and record the score
+							that.addSegment(player2.name +" failed to return");
+							player1.score++;
+							that.reportMatchScore(player1, player2);
+							that.whoServes = 1;
+							pingpong = false;
+						}
+					} else {
+						if(that.returnBall(player1)) {
+							// Player1 returned ball, keep going
+							that.addSegment(player1.name +" returns to " + player2.name + "... InBounds");
+						} else {
+							// Player1 failed, break the loop and record the score
+							that.addSegment(player1.name +" failed to return");
+							player2.score++;
+							that.reportMatchScore(player1, player2);
+							that.whoServes = 0;
+							pingpong = false;
+						}
+					}
+
+					toggle = (toggle === 0) ? 1 : 0;
+				}
+			};
+
+			theGame.prototype.serveBall = function (player) {
+				var that = this;
+
+				return (Math.floor(Math.random() * 99) + 1) < parseInt(player.serve_accuracy,10); 
+			};
+
+			theGame.prototype.returnBall = function (player) {
+				var that = this;
+
+				return (Math.floor(Math.random() * 99) + 1) < parseInt(player.return_skill,10) && 
+						(Math.floor(Math.random() * 99) + 1) < parseInt(player.return_accuracy,10); 
+			};
+
+			theGame.prototype.addSegment = function (words) {
+				jQuery('.game .segments').append("<div class='ui segment center'>"+ words +"</div>");
+			};
+
+			theGame.prototype.reportMatchScore = function (player1, player2) {
+				var that = this;
+				that.addSegment("<b>Score:</b><br>" + player1.name + ": " + player1.score + "<br>" + 
+														player2.name + ": " + player2.score);
+			};
+
+			theGame.prototype.showTourScores = function () {
+					var that = this;
+				that.addSegment("<b>Match Wins:</b><br>" + that.players[0].name + ": " + that.players[0].matchWins + "<br>" + 
+														that.players[1].name + ": " + that.players[1].matchWins + "<br>" + 
+														that.players[2].name + ": " + that.players[2].matchWins);
+			};
+
+			jQuery(document).ready(function() {
+				new theGame();
+			});
+			
+
+		</script>
+</body>
+</html>
