@@ -1,0 +1,1277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"play",
+				"players"
+			],
+			[
+				"on",
+				"onGoingTour"
+			],
+			[
+				"matc",
+				"matchWins"
+			],
+			[
+				"pla",
+				"players"
+			],
+			[
+				"mat",
+				"matchWin"
+			],
+			[
+				"ping",
+				"pingpong"
+			],
+			[
+				"the",
+				"theGame"
+			],
+			[
+				"return",
+				"returnBall"
+			],
+			[
+				"player",
+				"player2"
+			],
+			[
+				"pl",
+				"player1"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"load",
+				"loadPlayers"
+			],
+			[
+				"fget",
+				"fgetcsv"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"log",
+				"longitude"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"parse",
+				"parseLocations"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"ad",
+				"addyResolution"
+			],
+			[
+				"c",
+				"csv"
+			],
+			[
+				"coor",
+				"coordResp"
+			],
+			[
+				"coord",
+				"coordinates"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"coo",
+				"coordinates"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"access",
+				"access_token"
+			],
+			[
+				"list",
+				"listPM2Items"
+			],
+			[
+				"ex",
+				"exec"
+			],
+			[
+				"bu",
+				"builder"
+			],
+			[
+				"bower",
+				"bowerFiles"
+			],
+			[
+				"base",
+				"base_path"
+			],
+			[
+				"taks",
+				"tasks"
+			],
+			[
+				"p",
+				"paths"
+			],
+			[
+				"tas",
+				"tasks"
+			],
+			[
+				"pa",
+				"paths"
+			],
+			[
+				"ta",
+				"tasks"
+			],
+			[
+				"path",
+				"paths"
+			],
+			[
+				"ba",
+				"backend"
+			],
+			[
+				"watch",
+				"watchui"
+			],
+			[
+				"temp",
+				"temp_loc"
+			],
+			[
+				"thread",
+				"threads"
+			],
+			[
+				"fou",
+				"forum_id"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"vid",
+				"video"
+			],
+			[
+				"dat",
+				"datestamp"
+			],
+			[
+				"video",
+				"video_data"
+			],
+			[
+				"cont",
+				"content_map"
+			],
+			[
+				"con",
+				"content_map"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"u",
+				"ukeys"
+			],
+			[
+				"flu",
+				"flux_extras"
+			],
+			[
+				"un",
+				"uname"
+			],
+			[
+				"inse",
+				"insert_query"
+			],
+			[
+				"cache",
+				"cachekey"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"apollo",
+				"apollo_id"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"gal",
+				"gallery"
+			],
+			[
+				"thum",
+				"thumbnail_2"
+			],
+			[
+				"thu",
+				"thumbnail_2"
+			],
+			[
+				"ima",
+				"image_default"
+			],
+			[
+				"pri",
+				"printf"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"func",
+				"function_exists"
+			],
+			[
+				"revi",
+				"reviewParams"
+			],
+			[
+				"decode",
+				"dencodeURIComponentvals"
+			],
+			[
+				"parent",
+				"parentElChildren"
+			],
+			[
+				"val",
+				"validEl"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"di",
+				"display_data"
+			],
+			[
+				"cach",
+				"cache_data"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"includ",
+				"include_once"
+			],
+			[
+				"inlin",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "model/users.json",
+			"settings":
+			{
+				"buffer_size": 764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 4740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.php",
+			"settings":
+			{
+				"buffer_size": 1317,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syn",
+				"Set Syntax: PHP"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"sftrp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/lweber/Sites/armor",
+		"/Users/lweber/Sites/armor/model"
+	],
+	"file_history":
+	[
+		"/Users/lweber/Sites/armor/model/users.json",
+		"/Users/lweber/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/21950F8E-E273-4F3E-BDCE-D7AAE07EA917/armor-coding-challenge/README.md",
+		"/Users/lweber/Sites/transloc/.gitignore",
+		"/Users/lweber/Sites/transloc/backend/server/routes/coord.js",
+		"/Users/lweber/Sites/transloc/config.json",
+		"/Users/lweber/Sites/transloc/gulpfile.js",
+		"/Users/lweber/Sites/transloc/frontend/templates/partials/header.html",
+		"/Users/lweber/Sites/transloc/frontend/templates/index.html",
+		"/Users/lweber/Sites/transloc/package.json",
+		"/Users/lweber/Sites/transloc/config.json.example",
+		"/Users/lweber/Sites/transloc/GeoIP/GeoLiteCityv6.csv",
+		"/Users/lweber/Sites/transloc/GeoIP/GeoIPv6.csv",
+		"/Users/lweber/Sites/transloc/GeoIP/GeoLiteCity-Location.csv",
+		"/Users/lweber/Sites/transloc/backend/builder/tasks/connect/frontend.js",
+		"/Users/lweber/Sites/transloc/backend/server/frontend.js",
+		"/Users/lweber/Sites/transloc/backend/server/routes/lib.js",
+		"/Users/lweber/Sites/transloc/backend/server/routes/index.js",
+		"/Users/lweber/Sites/transloc/frontend/templates/partials/footer.html",
+		"/Users/lweber/Sites/transloc/frontend/templates/partials/menu.main.html",
+		"/Users/lweber/Sites/transloc/backend/server/routes/compiled.js",
+		"/Users/lweber/Sites/transloc/frontend/static/leaf/leaflet.js",
+		"/Users/lweber/Sites/transloc/frontend/static/leaf/leaf-styles.css",
+		"/Users/lweber/Sites/transloc/readme.md",
+		"/Users/lweber/Sites/transloc/frontend/static/leaf",
+		"/Users/lweber/Sites/transloc/frontend/static/leaf/leaf-heat.js",
+		"/Users/lweber/Sites/transloc/frontend/templates/partials/menu.sidebar.html",
+		"/Users/lweber/Sites/transloc/frontend/templates/layout/default.html",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/config/frontend.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/partials/footer.html",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/resume.html",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/routes/resume.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/frontend.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/layout/default.html",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/partials/header.html",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/partials/menu.main.html",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/index.html",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/routes/index.js",
+		"/Users/lweber/Sites/thynameismud.com/config.json",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/partials/menu.sidebar.html",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/partials/menu.pusher.html",
+		"/Users/lweber/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/lweber/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/lweber/Sites/thynameismud.com/readme.md",
+		"/Users/lweber/Sites/thynameismud.com/gulpfile.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/build.js",
+		"/Users/lweber/Sites/thynameismud.com/config.json.example",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/partials/menu.main.php",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/watch/output.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/connect/frontend.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/routes/lib.js",
+		"/Users/lweber/Sites/thynameismud.com/README.md",
+		"/Users/lweber/Sites/thynameismud.com/package.json",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/frontend-server.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/watch.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/connect.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/index.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/connect/backend.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/config/backend.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/ui-framework/src/theme.config",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/backend-server.js",
+		"/Users/lweber/Sites/thynameismud.com/.gitignore",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/config/bower.json",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/build/javascript.js",
+		"/Users/lweber/Sites/thynameismud.com/config.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/config/.bowerrc",
+		"/Users/lweber/Sites/thynameismud.com/.jshintrc",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/build/css.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/ui-framework/tasks/watch.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/server/routes/compiled.js",
+		"/Users/lweber/Sites/thynameismud.com/semantic.json",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/gulpfile.js",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/C35EB310-E4A3-46F0-A091-D93CE60B70B4/links.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/builder/tasks/server.js",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/AD36EA06-7F08-4951-8332-8BFA46627ACB/class.string_parser.inc",
+		"/Users/lweber/Sites/thynameismud.com/bower.json",
+		"/Users/lweber/Sites/thynameismud.com/frontend/ui-framework/tasks/build/javascript.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/ui-framework/tasks/build.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/tasks/gulpfile.js",
+		"/Users/lweber/Sites/thynameismud.com/backend/tasks/tasks/build.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/ui-framework/gulpfile.js",
+		"/Users/lweber/Sites/thynameismud.com/frontend/templates/layout.jade",
+		"/Users/lweber/Sites/thynameismud.com/.bowerrc",
+		"/Users/lweber/Sites/thynameismud.com/gulp/tasks/build.js",
+		"/Users/lweber/Sites/thynameismud.com/project/source/semantic/gulpfile.js",
+		"/Users/lweber/Sites/thynameismud.com/gulp/tasks/server.js",
+		"/Users/lweber/Sites/thynameismud.com/hapi/routes/links.js",
+		"/Users/lweber/Sites/thynameismud.com/hapi/frontend-server.js",
+		"/Users/lweber/Sites/thynameismud.com/hapi/config/frontend.js",
+		"/Users/lweber/Sites/thynameismud.com/project/config.js",
+		"/Users/lweber/Sites/thynameismud.com/project/source/semantic/src/site/globals/site.variables",
+		"/Users/lweber/Sites/thynameismud.com/proj/gulpfile.js",
+		"/Users/lweber/Sites/thynameismud.com/project/source/semantic/tasks/build.js",
+		"/Users/lweber/Sites/thynameismud.com/Gruntfile.js",
+		"/Users/lweber/Sites/thynameismud.com/project/static/css/style.css",
+		"/Users/lweber/Sites/thynameismud.com/grunt/config/notify.js",
+		"/Users/lweber/Sites/thynameismud.com/grunt/config/concurrent.js",
+		"/Users/lweber/Sites/thynameismud.com/project/templates/index.jade",
+		"/Users/lweber/Sites/thynameismud.com/grunt/config/bower.js",
+		"/Users/lweber/Sites/thynameismud.com/project/app.js",
+		"/Users/lweber/Sites/thynameismud.com/thynameismud.sublime-project",
+		"/Users/lweber/Sites/thynameismud.com/derp.js",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/D364CDBA-4BE3-4F2E-8A06-56CA937674F2/mud.zsh",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/E70E709B-388A-4C2F-B852-F32F76D9A926/mud.zsh",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/D3968313-D7D6-4D9F-9435-C77D6472BB0F/.zshrc",
+		"/Users/lweber/.zshrc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/B826281B-81FD-48AC-BDCB-91BAA8324257/menu.mobile.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/1592F29B-516A-42C7-B813-A7AEC6653A03/common.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/408F5B3D-472A-4774-8A52-61299FD96F76/footer.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/D1A457C7-EE12-4216-8302-8383D42DB12D/menu.mobile.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/5DE2C6C2-3E84-48EF-B035-0455D8DBD661/index.mobile.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/5D51F826-60B5-4A3B-82E2-E0F65C7ED2D8/menu.mobile.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/151AF542-D5C6-4491-BA95-9530C2F6005B/footer.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/695A5EBC-9A32-4FC3-A48F-6A16F603C789/index.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/BE096F84-A855-42BD-AEEC-1913C0B91A2E/common.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/C147A19E-8298-4168-A9AB-B386904C52C5/common.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/B0C27B7F-A37C-4F7C-97D3-CF6F4E5DA431/forum_new.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/BDCC4C24-EC18-4078-AB8C-858208C291CE/menu.4.0.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/93DE6FA6-A3C9-4733-8914-AA4378E2B242/menu.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/8C42E853-084F-4CA4-AB5A-9B1AFB1AEE18/class.image.inc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/86021417-1D47-46FF-BBE1-94C1EB928C44/thumbnail_import.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/0AC08373-ABF4-4F5C-9DC2-5130FA8F06F2/class.cache.inc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/0B231C3C-D825-4529-BCEF-B31A5BF1AF29/class.ims_image_mgmt.inc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/71162988-500D-4576-B97A-EB6BAEB334AF/class.ims_videos.inc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/5D297C1A-92E4-437D-9823-0708E6944578/.zshrc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/635329D7-B044-475F-ADF3-DCE01009C7D3/class.ims_videos.inc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/2AC056D2-0AC0-4195-9D1B-59CFA16C642B/apollo_parser.php",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/DDED0735-451B-4941-BDED-4594A685BD2D/class.image.inc",
+		"/Users/lweber/Library/Caches/Cleanup At Startup/Transmit/965CF24B-F6AC-4398-9FD5-9AEEEBAFBF1E/class.ims_videos.inc"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"create_threads.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"theGame",
+			"addyResolution",
+			")};",
+			"../dist",
+			".css",
+			"../dist",
+			"');\n",
+			"bowerJson",
+			"globs",
+			"IMS_Image_Mgmt",
+			"prep_directory",
+			"cdn",
+			"thumbnail",
+			"$ZSH",
+			".tag",
+			"get_image",
+			"require",
+			"update_forum_thread",
+			"update_posts",
+			"get_video",
+			"$this->forum",
+			"select_forum",
+			"function unit_id",
+			"unit_id",
+			"build_get_threads_caches",
+			"get_threads",
+			"select_thread",
+			"$this->db",
+			"new_threads_per_minute_limit",
+			"create_forum_thread",
+			"flux_uid",
+			"datestamp",
+			"print_r",
+			"dev",
+			"reviewContent",
+			"thumbnail",
+			"datedMenu",
+			"rotateDatedMenu",
+			"rotateDate",
+			"contentData",
+			"setPageTit",
+			".agile_carousel .content_button",
+			"popular",
+			"popul",
+			".site_body .content_panels",
+			"}\n",
+			".site_body .content_panels",
+			"945/945962",
+			"945/945864",
+			"945/945962",
+			"945962",
+			"946/945962",
+			"http://www.gametrailers.com/sitewide/images/sprites/m01_sprites.png",
+			"14px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"static/semantic",
+			".min.css",
+			"static/semantic",
+			"$IMS2_DB",
+			"qa",
+			"946/946152",
+			"//cdn.themis-media.com/media/global/images/library/deriv/945/945962.png"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5399,
+								5399
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5399,
+										5400
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5397,
+										5398
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3213.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "model/users.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										581,
+										582
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										566,
+										567
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 3335.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1618,
+								1618
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										326,
+										327
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										254,
+										255
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "armor.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/thynameismud.com/thynameismud.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

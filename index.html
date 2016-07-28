@@ -138,6 +138,11 @@
 						if(that.players[firstServe].matched.indexOf(against) !== false) {
 							firstServe = ((firstServe + 1) < (that.players.length - 1)) ? firstServe + 1 : 0;
 						}
+
+						// Can't attack yourself, that's cheating
+						if(firstServe == against) {
+							against = ((against + 1) < that.players.length) ? against + 1 : 0;
+						}
 					}
 				}
 			};
